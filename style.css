@@ -12,11 +12,12 @@ a {
     display: flex;
     flex-direction: column;
     width: auto;
-    height: 300px;
-    gap: 40px;
+    height: auto;
+    gap: 90px;
     margin: 0px;
     color: white;
     background-color: #1F2937;
+    padding-bottom: 80px;
 }
 
 .header-1{
@@ -59,10 +60,135 @@ a {
     color: #E5E7EB;
 }
 
+.text-box{
+    height: 200px;
+    width: 900px;
+    display: flex;
+    background-color: rgb(88, 92, 92);
+    justify-content: center;
+    align-items: center;
+}
+
 button{
     background-color: #3882F6;
     border: none;
     border-radius: 6px;
-    size: 50px;
+    height: 30px;
+    width: 100px;
+    color: white;
 }
 
+.information{
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.information-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 120px;
+    gap: 30px
+}
+
+.text-box1{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    aspect-ratio: 1/1;
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+    border-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.img-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.sub-text1{
+    text-align: center;
+    width: 170px;
+    font-size: 18px;
+    color: #5a6274;
+    display: flex;
+}
+
+.qoute{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.qoute-1{
+    display: flex;
+    font-style: italic;
+    margin: 0px 180px;
+    font-size: 26px;
+    color: #2b3747;
+}
+
+.qoute-2{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    margin: 0px 180px;
+    font-weight: 900;
+}
+
+.cta{
+    display: flex;
+    height: 120px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 16px;
+    margin: 90px 140px;
+}
+
+.cta-1{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: white;
+}
+
+.cta-text{
+    font-weight: 900;;
+}
+
+.cta-button{
+    color: white;
+    border: 2px solid #fff;
+}
+
+.footer{
+    background-color: #1f2937;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
