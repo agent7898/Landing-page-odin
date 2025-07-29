@@ -16,7 +16,7 @@ This is a simple landing page project built as part of [The Odin Project](https:
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/Landing-page-odin.git
+   git clone https://github.com/agent7898/Landing-page-odin.git
    cd Landing-page-odin
    ```
 
@@ -36,7 +36,7 @@ This is a simple landing page project built as part of [The Odin Project](https:
 
 ## Screenshots
 
-![Landing Page Screenshot](screenshot.png)
+![Landing Page Screenshot](./screenshot.png)
 
 ## Credits
 
